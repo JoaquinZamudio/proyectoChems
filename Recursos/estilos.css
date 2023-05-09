@@ -1,0 +1,74 @@
+@font-face{
+    font-family: mahgin;
+    src: url(Fuentes/mahgin/Mahgin.otf);
+}
+
+p{
+    font-family: 'mahgin';
+}
+
+@font-face{
+    font-family: young_money;
+    src: url(Fuentes/young_money/YoungMoney_PERSONAL_USE_ONLY.otf);
+}
+
+h1{
+    font-family: 'young_money';
+}
+
+body{
+    background-image: linear-gradient(to right, #ff00ca, #eb3fd8, #d659e2, #c16be8, #ad78ea, #908cf8, #739cfe, #59aaff, #0ec2ff, #00d7ff, #0beafe, #5ffbf1);
+    padding: 4em;
+    font-family: 'mahgin';
+}
+
+.fondoblanco{
+    background-image: linear-gradient(to right top, #00cfff, #00d6ff, #00ddff, #00e3ff, #00eaff, #00f0f9, #00f5f2, #00fae8, #00fecc, #00ffa3, #00ff6c, #4dfc00);
+
+}
+
+.bordeblanco{
+    border: 20px double rgb(48, 4, 120);
+    border-radius: 15px;
+}
+
+.imagenEstilo{
+    width: 250px;
+    text-align: center;
+}
+
+.textoFotter{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.parrafoFotter{
+    margin: 0px;
+    font-size: 20px;
+    font-family: 'young_money';
+}
+
+.titulo{
+    font-family: 'mahgin';
+    font-size: 35px;
+}
+
+.subtitulo{
+    text-align: center;
+    font-family: 'young_money';
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 35px;
+}
+
+.imagenFondo{
+    background-image: url(media/Anime2.jfif);
+    padding: 15px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 10em;
+}
